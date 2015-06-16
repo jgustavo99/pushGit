@@ -5,4 +5,9 @@
 		);
 		return $conn;
 	}
+	
+	function base_url($url){
+		$newUrl = "http://www.meusite.com/".$url;
+		return $newUrl;
+	}
 ?>
